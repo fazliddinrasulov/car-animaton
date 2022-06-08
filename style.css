@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sky{
+    background-image: url("sky.jpg");
+    height: 300px;
+    width: 100%;
+}
+.sky img{
+    height: 250px;
+    width: 150%;
+    margin-top: 50px;
+}
+.road img{
+    position: relative;
+    height: 200px;
+    width: 200%;
+}
+#car{
+    height: 250px;
+    position: relative;
+}
+#Wheel_1{
+    position: relative;
+    height: 120px;
+    margin-left: -190px;
+}
+#Wheel_2{
+    position: relative;
+    height: 120px;
+    margin-left: -495px;
+}
+.car{
+    transform: translate(300px,-260px);
+}
+.sky img{
+    animation-name: city;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+.road img{
+    animation-name: road;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+.wheel{
+    animation-name: wheel;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes wheel{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes road{
+    0%  {
+        transform: translate(-60px);
+    }
+    5%  {
+        transform: translate(-120px);
+    }
+    10%  {
+        transform: translate(-180px);
+    }
+    15%  {
+        transform: translate(-240px);
+    }
+    20%  {
+        transform: translate(-300px);
+    }
+    25%  {
+        transform: translate(-360px);
+    }
+    30%  {
+        transform: translate(-420px);
+    }
+    35%  {
+        transform: translate(-480px);
+    }
+    40%  {
+        transform: translate(-540px);
+    }
+    45%  {
+        transform: translate(-600px);
+    }
+    50%  {
+        transform: translate(-660px);
+    }
+    55%  {
+        transform: translate(-720px);
+    }
+    60%  {
+        transform: translate(-780px);
+    }
+    65%  {
+        transform: translate(-840px);
+    }
+    70%  {
+        transform: translate(-900px);
+    }
+    75%  {
+        transform: translate(-960px);
+    }
+    80%  {
+        transform: translate(-1020px);
+    }
+    85%  {
+        transform: translate(-1080px);
+    }
+    90%  {
+        transform: translate(-1140px);
+    }
+    95%  {
+        transform: translate(-1200px);
+    }
+    100%  {
+        transform: translate(-1260px);
+    }
+}
+@keyframes city {
+    0%  {
+        transform: translate(-10px);
+    }
+    5%  {
+        transform: translate(-20px);
+    }
+    10%  {
+        transform: translate(-30px);
+    }
+    15%  {
+        transform: translate(-40px);
+    }
+    20%  {
+        transform: translate(-50px);
+    }
+    25%  {
+        transform: translate(-60px);
+    }
+    30%  {
+        transform: translate(-70px);
+    }
+    35%  {
+        transform: translate(-80px);
+    }
+    40%  {
+        transform: translate(-90px);
+    }
+    45%  {
+        transform: translate(-100px);
+    }
+    50%  {
+        transform: translate(-110px);
+    }
+    55%  {
+        transform: translate(-120px);
+    }
+    60%  {
+        transform: translate(-130px);
+    }
+    65%  {
+        transform: translate(-140px);
+    }
+    70%  {
+        transform: translate(-150px);
+    }
+    75%  {
+        transform: translate(-160px);
+    }
+    80%  {
+        transform: translate(-170px);
+    }
+    85%  {
+        transform: translate(-180px);
+    }
+    90%  {
+        transform: translate(-190px);
+    }
+    95%  {
+        transform: translate(-200px);
+    }
+    100%  {
+        transform: translate(-210px);
+    }
+   
+}
